@@ -10,5 +10,5 @@ require("./routes/apiRoute.js")(app);
 require("./routes/htmlRoute.js")(app);
 
 app.listen(PORT, () => {
-  console.log(`API server now on PORT : ${PORT}`);
+  console.log(`API server now on PORT: ${PORT}`);
 });
